@@ -4,15 +4,22 @@
   "description": "GraphQL Server Boilerplate for Node.js",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon ./src/index.js",
+    "dev": "nodemon --exec babel-node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "apollo-server-express": "^2.9.6",
     "express": "^4.17.1",
     "graphql": "^14.4.2",
-    "graphql-import": "^0.7.1",
-    "nodemon": "^1.19.1"
+    "graphql-import": "^0.7.1"
+  },
+  "homepage": "https://github.com/nurettintopal/nodejs-graphql-server#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3"
   },
   "repository": {
     "type": "git",
@@ -28,6 +35,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nurettintopal/nodejs-graphql-server/issues"
-  },
-  "homepage": "https://github.com/nurettintopal/nodejs-graphql-server#readme"
+  }
 }
