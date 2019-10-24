@@ -19,7 +19,7 @@ $ npm run dev
 
 open a browser and go to:
 ```sh
-http://localhost:2020/graphql
+http://localhost:4000/graphql
 ```
 
 ## usage with docker-compose
