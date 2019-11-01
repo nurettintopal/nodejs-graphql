@@ -34,4 +34,4 @@ cooming soon...
 ``` 
 
 ## license
-The nodejs-graphql-server is open-sourced software licensed
+nodejs-graphql-server is open-sourced software licensed under the [MIT license](LICENSE).
