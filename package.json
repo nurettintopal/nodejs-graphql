@@ -8,18 +8,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "apollo-server-express": "^2.9.6",
+    "apollo-server-express": "^2.9.15",
     "express": "^4.17.1",
-    "graphql": "^14.4.2",
+    "graphql": "^14.5.8",
     "graphql-import": "^0.7.1"
   },
   "homepage": "https://github.com/nurettintopal/nodejs-graphql-server#readme",
   "devDependencies": {
-    "nodemon": "^1.19.1",
-    "@babel/cli": "^7.6.4",
-    "@babel/core": "^7.6.4",
-    "@babel/node": "^7.6.3",
-    "@babel/preset-env": "^7.6.3"
+    "nodemon": "^2.0.2",
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7"
   },
   "repository": {
     "type": "git",
