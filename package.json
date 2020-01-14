@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon --exec babel-node ./src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require @babel/polyfill --require @babel/register './tests/**/*.spec.js'",
+    "build": "mkdir dist & babel ./src/* -s -d dist"
   },
   "dependencies": {
     "apollo-server-express": "^2.9.15",
@@ -19,7 +20,9 @@
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
     "@babel/node": "^7.7.7",
-    "@babel/preset-env": "^7.7.7"
+    "@babel/preset-env": "^7.7.7",
+    "@babel/polyfill": "^7.8.3",
+    "mocha": "^7.0.0"
   },
   "repository": {
     "type": "git",
