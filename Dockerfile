@@ -4,6 +4,6 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-EXPOSE 80
+EXPOSE 4000
 
 CMD ["node", "build/main.js"]
