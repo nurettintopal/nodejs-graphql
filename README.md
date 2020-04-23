@@ -1,4 +1,4 @@
-Node.js GraphQL Server [![Build Status](https://travis-ci.com/nurettintopal/nodejs-graphql-server.svg?branch=master)](https://travis-ci.com/nurettintopal/nodejs-graphql-server) [![GitHub license](https://img.shields.io/github/license/nurettintopal/nodejs-graphql-server.svg)](https://github.com/nurettintopal/nodejs-graphql-server/blob/master/LICENSE)
+Node.js GraphQL Server ![CI Pipeline](https://github.com/nurettintopal/nodejs-graphql-server/workflows/CI%20Pipeline/badge.svg) [![GitHub license](https://img.shields.io/github/license/nurettintopal/nodejs-graphql-server.svg)](https://github.com/nurettintopal/nodejs-graphql-server/blob/master/LICENSE)
 ==============================================
 GraphQL Server Boilerplate for Node.js
 
