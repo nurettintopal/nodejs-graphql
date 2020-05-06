@@ -36,8 +36,12 @@
     "nodejs"
   ],
   "author": "Nurettin Topal <nurettintopal@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nurettintopal/nodejs-graphql-server/issues"
+  },
+  "engines": {
+    "node": "14.1.x",
+    "npm": "6.x"
   }
 }
