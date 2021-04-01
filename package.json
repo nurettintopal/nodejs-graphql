@@ -16,14 +16,14 @@
   },
   "homepage": "https://github.com/nurettintopal/nodejs-graphql-server#readme",
   "devDependencies": {
-    "nodemon": "^2.0.2",
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
     "@babel/node": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
     "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.7.7",
+    "backpack-core": "^0.8.3",
     "mocha": "^7.0.0",
-    "backpack-core": "^0.8.3"
+    "nodemon": "^2.0.2"
   },
   "repository": {
     "type": "git",
