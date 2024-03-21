@@ -22,7 +22,7 @@
     "@babel/polyfill": "^7.8.3",
     "@babel/preset-env": "^7.7.7",
     "backpack-core": "^0.8.3",
-    "mocha": "^7.0.0",
+    "mocha": "^10.3.0",
     "nodemon": "^2.0.2"
   },
   "repository": {
@@ -41,7 +41,7 @@
     "url": "https://github.com/nurettintopal/nodejs-graphql-server/issues"
   },
   "engines": {
-    "node": "14.1.x",
-    "npm": "6.x"
+    "node": "18.x",
+    "npm": "10.x"
   }
 }
